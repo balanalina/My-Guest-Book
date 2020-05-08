@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css\generalSite.css"> 
+	<link rel="stylesheet" type="text/css" href="css\submitForm.css">
+	<link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<script src="js/jquery-3.5.0.min.js"></script>
+	<script src="js/mainPagejs.js"></script>
+	<title>My Guest Book</title>
+</head>
+<body>
+	<h1>My Guest Book</h1>
+	<div class="submitForm">
+		<form>
+			<div class="d1">
+			<label for="fauthor"><span class = "submitLabel">Author :</span></label>
+		<br>
+			<textarea id="fauthor">your email here..</textarea>
+		<br>
+			<label for="ftitle"><span class = "submitLabel">Title:</span></label>
+		<br>
+			<textarea id = "ftitle"></textarea>
+		<button id="submitButton" value="POST">Submit your comment</button>
+			</div>
+		</form>
+		<br>
+	<div class="d2">
+			<label for="fcomment" id="commentLabel"><span class = "submitLabel">Your comment:</span></label>
+			<br>
+		<textarea id="fcomment"></textarea>
+	</div>
+		<div class="login">
+			<p>Admin Log in</p>
+			<label for="fuser"><span class="loginLabel">Username:</span></label>
+			<textarea id="fuser"></textarea>
+			<br>
+			<br>
+			<label for="fpassword"><span class="loginLabel">Password:</span></label>
+			<textarea id="fpassword" type="hidden"></textarea><br>
+			<br>
+			<button id="loginButton" value="POST">Log in</button>
+			<div id="response2"><p>Invalid user!</p></div>
+		</div>
+	</div>
+	<div id="response"><p>Submitted!</p></div>
+</body>
+</html>

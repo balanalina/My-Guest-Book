@@ -1,0 +1,100 @@
+.submitForm{
+	align-items: center;
+	width: 100%;
+	margin-left: 150px;
+	display: inline-block; 
+
+}
+
+.d1{
+	float: left;
+	width: 30%;
+}
+
+.d2{
+	float: left;
+	margin-top: 0;
+}
+
+p{
+	font: 400 100px/1.2 'Leckerli One', Helvetica, sans-serif;
+  	color: #000;
+  	text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+  	font-size: 35px;
+  	position: relative;
+  	text-align: center;
+  	margin-top: 0; 
+}
+
+.submitLabel{
+	font: 400 100px/1.2 'Leckerli One', Helvetica, sans-serif;
+  	color: #000;
+  	text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+  	font-size: 50px;
+}
+
+.loginLabel{
+    font: 400 100px/1.2 'Leckerli One', Helvetica, sans-serif;
+  	color: #000;
+  	text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+  	font-size: 30px;
+  	padding-left: 70px;
+}
+
+.commentLabel{
+	margin-top:0px;
+	float: right;
+	height: 300px;
+	width: 400px;
+}
+
+#submitButton{
+	margin-top: 150px;
+	margin-left: 75px;
+	height: 15%;
+	font: 400 100px/1.2 'Leckerli One', Helvetica, sans-serif;
+  	color: #000;
+  	text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+  	font-size: 30px;
+  	border-color: purple;
+}
+
+#loginButton{
+	font: 400 100px/1.2 'Leckerli One', Helvetica, sans-serif;
+  	color: #000;
+  	text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+  	font-size: 35px;
+  	border-color: purple;
+  	margin-left: 160px; 
+}
+
+.login{
+	/*background: white;*/
+	width: 30%;
+	float:left;
+	height: 100%;
+}
+
+#fauthor{
+	height: 25px; 
+	size: 20;
+}
+
+#ftitle{
+	height: 25px;
+	size: 30;
+}
+#fcomment{
+	margin-top:5px;
+	float: right;
+	height: 300px;
+	width: 400px;
+}
+
+#response{
+	display: none;
+}
+
+#response2{
+	display: none;
+}

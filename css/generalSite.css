@@ -1,0 +1,18 @@
+body{
+	background: url(wisteria.jpg);
+}
+h1{
+	text-align: center;
+  	font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  	color: black;
+  	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  	font-size: 100px;
+}
+.commentTable{
+	width: 100%;
+}
+.main{
+	width: 100%;
+	display: inline-block;
+
+}

@@ -1,0 +1,35 @@
+.paginationLabel{
+	border: 1px solid purple;
+	padding:10px;
+	cursor: pointer;
+	background: white;
+	font: 400 100px/1.2 'Leckerli One', Helvetica, sans-serif;
+	color: #000;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+	font-size: 15px;
+}
+
+.showTable{
+	width: 100%;
+	font: 400 100px/1.2 'Leckerli One', Helvetica, sans-serif;
+	color: #000;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+	font-size: 20px;
+}
+
+.delmod{
+	float: left;
+	background: #D3D3D3;
+	font: 400 100px/1.2 'Leckerli One', Helvetica, sans-serif;
+	color: #000;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+	font-size: 20px;
+	border: 2px solid purple;
+	padding: 10px;
+	display: none;
+}
+
+th,td{
+	border: 2px solid purple;
+	background: #D3D3D3;
+}
